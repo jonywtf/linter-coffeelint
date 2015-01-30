@@ -5,7 +5,7 @@ findFile = require "#{linterPath}/lib/util"
 class LinterCoffeelint extends Linter
   # The syntax that the linter handles. May be a string or
   # list/tuple of strings. Names should be all lowercase.
-  @syntax: ['source.coffee', 'source.litcoffee']
+  @syntax: ['source.coffee', 'source.litcoffee', 'source.cjsx']
 
   # A string, list, tuple or callable that returns a string, list or tuple,
   # containing the command line (with arguments) used to lint.
